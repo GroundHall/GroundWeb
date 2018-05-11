@@ -1,0 +1,119 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.topWrap {
+  display: flex;
+  flex-direction: row; 
+  padding-left: 28px; 
+  padding-top: 20px;
+}
+
+.ndWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2px;
+  line-height: 110%;
+  margin-left: 4px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans Semibold';
+}
+
+.date {
+  font-size: 12px;
+  font-family: 'Open Sans Semibold';
+  color: #0052CC;
+  margin-left: 1px;
+}
+
+.text {
+  font-size: 16px;
+  margin: 16px 40px 14px;
+}
+
+.bottom {
+  display: flex;
+  border-top: 2px solid #F4F5F7;
+  padding: 10px 24px 4px;
+}
+
+.likeButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 2px 8px 4px;
+  border-radius: 3px;
+  font-family: 'Open Sans Semibold';
+}
+
+.likeButton:hover {
+  background-color:rgb(255, 225, 234);
+}
+
+.likeButton:active {
+  background-color:rgb(253, 205, 219);
+}
+
+
+.likeButton:hover {
+  text-decoration: none;
+}
+
+
+.likeButtonText {
+  margin-top: 3px;
+  padding-left: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FF467E;
+  user-select: none;
+}
+
+
+.likeButtonTextActive {
+  margin-top: 3px;
+  padding-left: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #E91E63;
+  user-select: none;
+}
+
+.likeCount {
+  display: flex;
+  align-self: flex-start;
+  z-index: 0;
+  margin-bottom: -10px;
+  margin-left: 32px;
+  border: 2px solid #F4F5F7;
+  background-color: white;
+  border-radius: 13px;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.loadingBar {
+  height: 3px;
+  border-radius: 2px;
+  background-color: blue;
+  animation-name: topBar;
+  animation-duration: 0.4s;
+}
+
+@keyframes topBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

@@ -1,0 +1,115 @@
+.tag {
+  width: 72px;
+  height: 24px;
+  background-color: #0747A6;
+  margin-left: 24px;
+  border-radius: 3px;
+  margin-bottom: -10px;
+}
+
+.profileWrap {
+  display: flex;
+  padding: 24px 32px;
+  align-items: center;
+  align-self: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.profileLeft {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.avatar {
+  object-fit: cover;
+  height: 48px;
+  width: 48px;
+  border-radius: 30px;
+  border: 3px solid #0747A6;
+}
+
+.nameUsernameTypeWrap {
+  margin-left: 8px;
+  font-family: 'Open Sans Semibold';
+}
+
+.nameWrap {
+  font-size: 20px;
+}
+
+.usernameTypeWrap {
+  font-size: 16px;
+  color: #0747A6;
+  font-family: 'Open Sans';
+}
+
+.profileRight {
+  display: flex;
+  margin-top: 4px;
+}
+
+.friendButton {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  font-size: 16px;
+  font-family: 'Open Sans Semibold';
+  background-color: transparent;
+  border: 2px solid #FF467E;
+  color: #FF467E;
+  border-radius: 16px;
+  padding: 4px 16px;
+  cursor: pointer;
+}
+
+
+.friendButton:hover {
+  background-color: #FF467E;
+  color: white;
+}
+
+.friendButton > svg {
+  width: 12px;
+  height: 16px;
+  margin-right: 4px;
+  fill: #FF467E;
+}
+
+.friendButton:hover > svg {
+  fill: white;
+}
+
+
+.messageButton {
+  font-size: 16px;
+  font-family: 'Open Sans Semibold';
+  background-color: transparent;
+  border: 2px solid #0747A6;
+  color: #0747A6;
+  border-radius: 16px;
+  padding: 4px 16px;
+  cursor: pointer;
+}
+
+.messageButton:hover {
+  background-color: #0747A6;
+  color: white;
+}
+
+.quotas {
+  margin: 0 32px;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  background-color: #0747A6;
+  color: white;
+  padding: 10px 0 8px 16px;
+  /* padding-left: 16px; */
+  border-radius: 3px;
+  margin-top: -2px;
+  position: relative;
+  z-index: -1;
+}

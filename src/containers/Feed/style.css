@@ -1,0 +1,23 @@
+.pageWrap {
+  background-color: #FAFBFC;
+  padding: 20px 0;
+}
+
+.feedWrap {
+  display: flex;
+  justify-content: center;
+  width: 640px;
+  margin: 0 auto;
+  flex: 1;
+  flex-direction: column;
+}
+
+.feedWrap > div > div {
+  margin-bottom: 8px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

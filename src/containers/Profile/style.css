@@ -1,0 +1,9 @@
+.pageWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  width: 640px;
+  margin: 0 auto;
+  margin-top: 20px;
+}

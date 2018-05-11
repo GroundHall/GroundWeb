@@ -1,0 +1,36 @@
+.addButton {
+  width: 52px;
+  height: 52px;
+  background-color: #0747A6;
+  border-radius: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  outline: none;
+  border: 2px solid #F3F3F4;
+}
+
+.addButton:hover {
+  cursor: pointer;
+  background-color: #08367c;
+}
+
+.addButton:active {
+  cursor: pointer;
+  background-color: #042e6e;
+}
+
+.errorMessage {
+  margin-left: 20px;
+  margin-bottom: -20px;
+}
+
+.addIconWrapper {
+  padding-right: 3px;
+  padding-top: 5px;
+}
+
+.addSpinnerWrapper {
+  padding-top: 4px;
+}
